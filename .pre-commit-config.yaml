@@ -1,0 +1,15 @@
+# This is used as a unit test for terraform code
+repos:
+  - repo: git://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.83.3
+    hooks:
+      - id: terraform_fmt # format terraform code
+      - id: terraform_validate # validate terraform code
+      - id: terraform_tflint # lint terraform code
+      - id: terraform_docs # generate terraform docs
+      - id: checkov # static security analysis for terraform
+  - repo: https://github.com/gruntwork-io/pre-commit
+    rev: v0.1.22
+    hooks:
+      - id: gofmt # format go code
+      - id: golint # lint go code
