@@ -35,7 +35,7 @@ Verktøy som brukes:
 
 Vi bruker Github-handlinger og andre verktøysett for å oppnå CI/CD.
 
-![alt text](https://github.com/c00ler82/terraform-demo/blob/images/pipeline.png)
+![alt text](https://github.com/c00ler82/terraform-demo/raw/15855620927413c54c34b015e2fe8119b7fb887e/images/pipeline.png)
 
 ### Trinn
 
@@ -57,4 +57,4 @@ Vi bruker Github-handlinger og andre verktøysett for å oppnå CI/CD.
 
 terra-docs eksempel
 
-![alt text](https://github.com/c00ler82/terraform-demo/blob/images/terra-docs.webp)
+![alt text](https://github.com/c00ler82/terraform-demo/raw/15855620927413c54c34b015e2fe8119b7fb887e/images/terra-docs.webp)
