@@ -1,14 +1,4 @@
-# DSB
-
-### 5. Lage og tilby moduler
-
-Vi ønsker å etablere et sett med standardiserte DSB-Terraform-moduler. Disse skal ha defaults hensiktsmessig for DSB, sørge for at vi etablerer infrastruktur mest mulig uniformt i Azure og gjøre det lettere for oss å gjøre endringer på mange steder samtidig.
-
-Hva er viktige hensyn å ta her? Og, hvis du skulle bygge opp en standardisert CI/CD-prosess for Terraform-moduler, hvilke prosesser skulle den bestått av?
-
-## Forslag
-
-Dette er et forslag om å bruke Terraform i en monorepo og implementere CI/CD. Dette forslaget fungerer best for et lite-medium prosjekt, når kompleksiteten øker, bør vi bruke sub-modules for å ha mer fleksibilitet.
+# Terraform beste praksis
 
 Verktøy som brukes:
 
